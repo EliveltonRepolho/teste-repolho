@@ -63,7 +63,7 @@ public class BinaryTreeCalc {
         tree.add(25);
 
         System.out.printf("Soma de todos os nós da árvore - nó base: -> ", tree.calcFromNumber(10));
-        System.out.printf("Soma a partir do nó 4: -> ", tree.calcFromNumber(4));
-        System.out.printf("Soma a partir do nó 3: -> ", tree.calcFromNumber(13));
+        System.out.printf("\nSoma a partir do nó 4: -> ", tree.calcFromNumber(4));
+        System.out.printf("\nSoma a partir do nó 3: -> ", tree.calcFromNumber(13));
     }
 }
