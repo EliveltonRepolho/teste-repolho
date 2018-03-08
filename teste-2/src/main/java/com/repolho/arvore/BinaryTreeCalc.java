@@ -51,24 +51,19 @@ public class BinaryTreeCalc {
 
     public static void main(String[] args) {
         BinaryTreeCalc tree = new BinaryTreeCalc();
-
         tree.add(10);
         tree.add(8);
         tree.add(9);
         tree.add(4);
         tree.add(6);
         tree.add(2);
-
         tree.add(20);
         tree.add(15);
         tree.add(13);
         tree.add(25);
 
-        System.out.println("BinaryTreeCalc.main: - 10 " + tree.calcFromNumber(10));
-
-        System.out.println("BinaryTreeCalc.main - 4: " + tree.calcFromNumber(4));
-
-        System.out.println("BinaryTreeCalc.main: - 13 " + tree.calcFromNumber(13));
-
+        System.out.printf("Soma de todos os nós da árvore - nó base: -> ", tree.calcFromNumber(10));
+        System.out.printf("Soma a partir do nó 4: -> ", tree.calcFromNumber(4));
+        System.out.printf("Soma a partir do nó 3: -> ", tree.calcFromNumber(13));
     }
 }
