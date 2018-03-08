@@ -10,7 +10,7 @@
 
 8. Dados dois numeros inteiros A e B, crie um terceiro inteiro C....
 
-    [Link do fonte completo](https://github.com/EliveltonRepolho/teste-repolho/blob/master/teste-2/src/main/java/com/repolho/numero/NumerosInteiros.java)
+    [Link do fonte completo](https://github.com/EliveltonRepolho/teste-repolho/blob/master/teste-2/src/com/repolho/numero/NumerosInteiros.java)
     
     ```java
         private static int calcularValorC(int a, int b) {
@@ -45,7 +45,7 @@
 
 9. Desenvolva um método que dado um nó da árvore calcule a soma de todos os nós subsequentes
 
-    [Link do fonte completo](https://github.com/EliveltonRepolho/teste-repolho/blob/master/teste-2/src/main/java/com/repolho/arvore/BinaryTreeCalc.java)
+    [Link do fonte completo](https://github.com/EliveltonRepolho/teste-repolho/blob/master/teste-2/src/com/repolho/arvore/BinaryTreeCalc.java)
     
     ```java
         private int calcRecursive(BinaryTree from, int value, Integer sum) {
